@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: noto sans jp;
+  line-height: 1.7;
+  letter-spacing: 0.8px;
+}
+
+.underoverskift {
+  font-size: 2em;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  margin-bottom: 40px;
+  background-color: #000;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Software */
+
+.section-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 0px 300px;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  background-color: #f0f0f0;
+}
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 50%;
+}
+
+p {
+  line-height: 1.7;
+  letter-spacing: 0.8px;
+}
+
+.section-block img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  font-family: inherit;
+}
+
+.primary-btn {
+  background-color: green;
+  color: #fff;
+  font-weight: 700;
+}
+
+.secondary-btn {
+  background-color: lightgrey;
+  color: #000;
+}
+
+.CTA {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+/* Services */
+
+.section-block .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 325px;
+  width: 325px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: lightgrey;
+}
+
+/* Kontakt */
+
+.section-block form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 50%;
+}
+
+input {
+  height: 35px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+textarea {
+  height: 250px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  resize: none;
+  padding: 10px;
+}
+
+label {
+  font-weight: 700;
+}
+
+/* Footer */
+
+Footer {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
