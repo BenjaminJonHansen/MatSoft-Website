@@ -174,10 +174,11 @@ Footer {
 @media (max-width: 1000px) {
   .section-block {
     flex-direction: column;
+    padding: 25px 25px 150px 25px;
   }
 
   .section-block img {
-    max-width: 100%; /* Full width on smaller screens */
+    max-width: 80%; /* Full width on smaller screens */
   }
 
   .info-block {
@@ -190,7 +191,7 @@ Footer {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 100%;
+    width: 80%;
   }
 
   /* Hamburger-menu */
