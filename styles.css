@@ -50,6 +50,10 @@ nav a {
   color: #fff;
 }
 
+.menu-toggle {
+  display: none;
+}
+
 /* Software */
 
 .section-block {
@@ -187,5 +191,35 @@ Footer {
     flex-direction: column;
     gap: 15px;
     width: 80%;
+  }
+
+  /* Hamburger-menu */
+
+  .menu-toggle {
+    display: block; /* Displayed only on smaller screens */
+  }
+
+  .menu {
+    display: none; /* Hidden by default */
+  }
+
+  nav:focus-within .menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    padding: 20px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav ul li {
+    text-align: center;
   }
 }
