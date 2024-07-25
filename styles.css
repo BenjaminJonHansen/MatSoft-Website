@@ -177,7 +177,7 @@ Footer {
   }
 
   .section-block img {
-    max-width: 80%; /* Full width on smaller screens */
+    max-width: 100%; /* Full width on smaller screens */
   }
 
   .info-block {
@@ -190,7 +190,7 @@ Footer {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 80%;
+    width: 100%;
   }
 
   /* Hamburger-menu */
