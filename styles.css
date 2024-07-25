@@ -223,4 +223,14 @@ Footer {
   nav ul li {
     text-align: center;
   }
+
+  p {
+    font-size: 14px;
+  }
+
+/* Reverse the order of image and info-block for the first .section-block */
+.section-block:nth-of-type(3) {
+  display: flex;
+  flex-direction: column-reverse;
+}
 }
