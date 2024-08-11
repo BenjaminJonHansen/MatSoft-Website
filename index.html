@@ -11,15 +11,32 @@
     />
   </head>
   <body>
-
-      <!-- MOBILE SCREEN -->
-      <input type="checkbox" class="checkbox-input" id="menu">
-      <!-- END MOBILE SCREEN -->
+    <!-- MOBILE SCREEN -->
+    <input type="checkbox" class="checkbox-input" id="menu" />
+    <!-- END MOBILE SCREEN -->
 
     <!-- Header -->
     <header>
       <div class="logo">
-        <svg id="logo-35" width="50" height="39" viewBox="0 0 50 39" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M16.4992 2H37.5808L22.0816 24.9729H1L16.4992 2Z" class="ccompli1" fill="#007AFF"></path> <path d="M17.4224 27.102L11.4192 36H33.5008L49 13.0271H32.7024L23.2064 27.102H17.4224Z" class="ccustom" fill="#312ECB"></path> </svg>
+        <svg
+          id="logo-35"
+          width="50"
+          height="39"
+          viewBox="0 0 50 39"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.4992 2H37.5808L22.0816 24.9729H1L16.4992 2Z"
+            class="ccompli1"
+            fill="#007AFF"
+          ></path>
+          <path
+            d="M17.4224 27.102L11.4192 36H33.5008L49 13.0271H32.7024L23.2064 27.102H17.4224Z"
+            class="ccustom"
+            fill="#312ECB"
+          ></path>
+        </svg>
         <h1>MatSoft</h1>
       </div>
 
@@ -32,10 +49,10 @@
       <!-- END MOBILE SCREEN -->
 
       <nav>
-        <a href="#software">Software</a>
-        <a href="#services">Services</a>
-        <a href="#om-os">Om os</a>
-        <a href="#kontakt">Kontakt</a>
+        <a href="#software" onclick="document.getElementById('menu').checked = false;">Software</a>
+        <a href="#services" onclick="document.getElementById('menu').checked = false;">Services</a>
+        <a href="#om-os" onclick="document.getElementById('menu').checked = false;">Om os</a>
+        <a href="#kontakt" onclick="document.getElementById('menu').checked = false;">Kontakt</a>
       </nav>
     </header>
 
@@ -66,6 +83,7 @@
         <img src="images/timerr_long_logo_smaller-kopi.png" alt="Timerr Logo" />
       </section>
 
+      <div class="spacer"></div>
       <!-- Services -->
       <h2 class="underoverskift" id="services">Services</h2>
       <section class="section-block">
@@ -97,6 +115,7 @@
           </ul>
         </div>
       </section>
+      <div class="spacer"></div>
 
       <!-- Om os -->
       <section class="section-block">
@@ -120,6 +139,8 @@
           </p>
         </div>
       </section>
+
+      <div class="spacer"></div>
 
       <!-- Kontakt -->
       <section class="section-block">
@@ -150,6 +171,7 @@
           <button class="primary-btn" type="submit">Send</button>
         </form>
       </section>
+      <div class="spacer"></div>
     </div>
     <footer>
       <div class="footer-info">
